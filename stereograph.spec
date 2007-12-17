@@ -10,7 +10,6 @@ Source0:        http://download.sourceforge.net/stereograph/%{name}-%{version}.t
 Patch0:         %name-makefile.patch
 URL:            http://stereograph.sourceforge.net/
 Group:          Graphics 
-BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 License:        GPL 
 
 
