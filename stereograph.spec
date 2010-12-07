@@ -1,6 +1,6 @@
 %define name    stereograph 
 %define version 0.33b
-%define release %mkrel 7
+%define release %mkrel 8
 
 Name:           %{name} 
 Summary:        Stereograph for linux, an advanced stereogram generator 
