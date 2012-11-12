@@ -1,0 +1,17 @@
+--- Makefile.in~	2003-11-09 16:33:17.000000000 +0100
++++ Makefile.in	2005-07-14 15:36:43.000000000 +0200
+@@ -15,7 +15,7 @@
+ 
+ install:
+ 	cp stereograph $(PREFIX)/bin/stereograph
+-	cp stereograph.1 $(PREFIX)/man/man1/stereograph.1
++	cp stereograph.1 $(PREFIX)/share/man/man1/stereograph.1
+ 
+ clean:
+ 	rm -f $(OBJ0) *~ stereograph core
+@@ -24,4 +24,4 @@
+ 
+ un-install:
+ 	rm $(PREFIX)/bin/stereograph
+-	rm $(PREFIX)/man/man1/stereograph.1
++	rm $(PREFIX)/share/man/man1/stereograph.1
