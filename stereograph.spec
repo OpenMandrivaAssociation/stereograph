@@ -8,7 +8,7 @@ Version:        %{version}
 Release:        %{release} 
 Source0:        http://download.sourceforge.net/stereograph/%{name}-%{version}.tar.bz2 
 Patch0:         %name-makefile.patch
-URL:            http://stereograph.sourceforge.net/
+URL:            https://stereograph.sourceforge.net/
 Group:          Graphics 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 License:        GPL 
