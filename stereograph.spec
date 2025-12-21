@@ -14,6 +14,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 License:        GPL 
 
 
+BuildRequires:	make
 BuildRequires:  X11-devel
 BuildRequires:  jpeg-devel
 BuildRequires:  png-devel
